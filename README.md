@@ -25,3 +25,8 @@ source activate bert
 python download_bert.py
 cp $TFHUB_CACHE_DIR/ecd2596ce849110246602e3d4d81e2d9719cb027/assets/vocab.txt .
 ```
+
+4. Start jupyter
+```bash
+jupyter notebook
+```
