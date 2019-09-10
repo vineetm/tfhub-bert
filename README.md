@@ -26,7 +26,9 @@ python download_bert.py
 cp $TFHUB_CACHE_DIR/ecd2596ce849110246602e3d4d81e2d9719cb027/assets/vocab.txt .
 ```
 
-4. Start jupyter
+4. Get [tokenization.py](https://github.com/google-research/bert/blob/master/tokenization.py) from the official BERT repository
+
+5. Start jupyter
 ```bash
 jupyter notebook
 ```
