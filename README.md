@@ -12,13 +12,14 @@ source "${HOME}/.bash_profile"
 echo $TFHUB_CACHE_DIR
 ```
 
-2. Create a new environment and install requirements
+2. Create a new environment (let's call it `bert`) and install requirements
 ```bash
 conda create -n bert python=3.7
 source activate bert
 
 (bert) pip install -r requirements.txt
 ```
+NOTE: if `source activate bert` does not work, try `conda activate bert`
 
 3. Download Bert Model, and copy vocab file. Feel free to replace BERT URL form [list of available modules](https://tfhub.dev/s?q=bert). You would also need to change the local vocab path accordingly.
 ```bash
