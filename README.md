@@ -20,7 +20,7 @@ source activate bert
 (bert) pip install -r requirements.txt
 ```
 
-3. Download Bert Model, and copy vocab file. Replace URL and model by checking `descriptor.txt`
+3. Download Bert Model, and copy vocab file. Feel free to replace BERT URL form [list of available modules](https://tfhub.dev/s?q=bert). You would also need to change the local vocab path accordingly.
 ```bash
 python download_bert.py
 cp $TFHUB_CACHE_DIR/ecd2596ce849110246602e3d4d81e2d9719cb027/assets/vocab.txt .
